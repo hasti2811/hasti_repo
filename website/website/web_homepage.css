@@ -1,0 +1,71 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  position: relative;
+  margin: 0px auto;
+}
+
+.img-button-container {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.img-container {
+  display: inline-block;
+}
+
+.img-container img {
+  width: 500px;
+  height: 500px;
+}
+
+.FI {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 24px;
+}
+
+#btns1, #btns2, #btns3 {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+}
+
+/* Navigation menu styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.user {
+
+  color: white;
+ 
+}

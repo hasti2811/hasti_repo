@@ -1,0 +1,85 @@
+/* Style for the horizontal top nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+li a:hover {
+  background-color: #111;
+}
+
+/* Style for vertical navigation */
+#vertical-nav {
+  width: 200px; /* Adjust width as necessary */
+  position: absolute;
+  top: 50px; /* Adjust top value to move down below horizontal nav */
+  bottom: 0; /* Makes the vertical nav stretch to the bottom */
+  background-color: #333; /* Grey background */
+}
+
+#vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%; /* Ensure the height fills the parent container */
+}
+
+#vertical-nav li {
+  float: none; /* Remove float to stack vertically */
+  display: flex; /* Use flexbox for vertical centering */
+  justify-content: center; /* Horizontal centering (optional) */
+  align-items: center; /* Vertical centering */
+  height: 100px; /* Set a fixed height for each item (you can adjust this value) */
+}
+
+#vertical-nav li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  width: 100%; /* Ensure the anchor fills the container */
+  text-align: center; /* Center text horizontally */
+}
+
+#vertical-nav li a:hover {
+  background-color: #111; /* Change background on hover */
+}
+
+a:hover {
+  text-decoration:underline;
+}
+button:hover {
+  color:black;
+  border:1px solid #D9D9D9;
+}
+
+.user {
+
+  color: white;
+ 
+}
+
+.box {
+  text-align:center;
+  width:100%;
+  height:auto;
+  padding-top:130px;
+  margin:0 auto;
+}
+
